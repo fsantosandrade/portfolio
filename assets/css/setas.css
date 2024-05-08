@@ -1,0 +1,8 @@
+.seta {
+    content: '';
+    height: .9rem;
+    width: .9rem;
+    border-top: solid 3px white;
+    border-right: solid 3px white;
+    transform: rotateZ(135deg);
+}
