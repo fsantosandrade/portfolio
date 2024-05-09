@@ -1,0 +1,53 @@
+@import url(global.css);
+
+@media screen and (min-width: 670px) and (max-width: 992px) {
+    header {
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+
+    header > img {
+        width: 235px;
+        height: 235px;
+    }
+
+    header > section > h1 {
+        font-size: 2rem;
+    }
+
+    header > section ul > li {
+        font-size: 1.2rem;
+    }    
+    
+    #cont > ul > li > span {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+
+    header > img {
+        width: 235px;
+        height: 235px;
+    }
+
+    header > section > h1 {
+        font-size: 2rem;
+    }
+
+    header > section ul > li {
+        font-size: 1.2rem;
+    }    
+    
+    #cont > ul > li > span {
+        font-size: 1.3rem;
+    }
+
+    section > #infos > li {
+        width: 80%;
+    }
+}

@@ -1,0 +1,39 @@
+header > section > ul > li.job::before {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../../icons/job.svg) center center no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+}
+
+header > section > ul > li.loc::before {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../../icons/loc.svg) center center no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+}
+
+header > section > ul > li.phone::before {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../../icons/phone.svg) center center no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+}
+
+header > section > ul > li.email::before {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../../icons/email.svg) center center no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+}
