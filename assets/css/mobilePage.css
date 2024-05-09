@@ -17,8 +17,8 @@ main {
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
-    height: 70%;
-    width: 95%;
+    height: 80vh;
+    width: 95vw;
     padding: 15px;
     border: solid 1px white;
     border-radius: 15px;
