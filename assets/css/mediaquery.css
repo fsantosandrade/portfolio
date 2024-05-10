@@ -1,6 +1,21 @@
 @import url(global.css);
 
+@media screen and (orientation: landscape) and (max-width: 670px) {
+    body {
+        height: 176vh;
+    }
+    
+    main {
+        min-height: 520px;
+        max-height: 520px;
+    }
+}
+
 @media screen and (min-width: 670px) and (max-width: 992px) {
+    main {
+        height: 78%;
+    }
+
     header {
         justify-content: space-around;
         margin-bottom: 50px;
@@ -25,6 +40,10 @@
 }
 
 @media screen and (min-width: 992px) {
+    main {
+        height: 78%;
+    }
+    
     header {
         justify-content: space-around;
         margin-bottom: 50px;

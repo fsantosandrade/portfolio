@@ -4,11 +4,11 @@
 
 body {
     display: flex;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
-    justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom right, rgb(255, 156, 238), rgba(157, 37, 168, 0.87), rgba(0, 0, 0, 0.938), rgba(0, 0, 0, 0.979), rgba(0, 0, 0, 0.938), rgba(33, 33, 255, 0.884), rgb(255, 156, 239), rgba(131, 32, 139, 0.986));
+    background: linear-gradient(to bottom right, rgb(255, 156, 238), rgba(157, 37, 168, 0.87), rgba(0, 0, 0, 0.938), rgba(0, 0, 0, 0.979), rgba(0, 0, 0, 0.938), rgba(33, 33, 255, 0.884), rgb(255, 156, 239), rgba(131, 32, 139, 0.986)) center no-repeat fixed;
     backdrop-filter: blur(100px);
 }
 
@@ -17,8 +17,8 @@ main {
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
-    height: 80vh;
-    width: 95vw;
+    height: 70%;
+    width: 95%;
     padding: 15px;
     border: solid 1px white;
     border-radius: 15px;
@@ -58,6 +58,7 @@ header > img {
     height: 135px;
     border-radius: 50%;
     margin-right: 20px;
+    transition: all .3s ease;
 }
 
 header > section > ul > li {
