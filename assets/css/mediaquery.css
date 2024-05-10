@@ -2,18 +2,25 @@
 
 @media screen and (orientation: landscape) and (max-width: 670px) {
     body {
-        height: 176vh;
+        height: 190vh;
     }
-    
     main {
-        min-height: 520px;
-        max-height: 520px;
+        height: 90%;
+    }
+}
+
+@media screen and (orientation: landscape) and (min-width: 670px) and (max-width: 760px) {
+    body {
+        height: 260vh;
+    } 
+    main {
+        height: 100%;
     }
 }
 
 @media screen and (min-width: 670px) and (max-width: 992px) {
     main {
-        height: 78%;
+        height: 70%;
     }
 
     header {
@@ -41,7 +48,7 @@
 
 @media screen and (min-width: 992px) {
     main {
-        height: 78%;
+        height: 68%;
     }
     
     header {
