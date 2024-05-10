@@ -18,6 +18,7 @@ main {
     justify-content: flex-start;
     align-items: center;
     height: 61%;
+    max-height: 558px;
     width: 95%;
     padding: 15px;
     border: solid 1px white;

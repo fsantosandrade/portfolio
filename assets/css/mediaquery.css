@@ -21,6 +21,7 @@
 @media screen and (min-width: 670px) and (max-width: 992px) {
     main {
         height: 70%;
+        max-height: 640px;
     }
 
     header {
@@ -49,6 +50,7 @@
 @media screen and (min-width: 992px) {
     main {
         height: 68%;
+        max-height: 640px;
     }
     
     header {
