@@ -2,10 +2,10 @@
 
 @media screen and (orientation: landscape) and (max-width: 670px) {
     body {
-        height: 190vh;
+        height: 300vh;
     }
     main {
-        height: 90%;
+        height: 100%;
     }
 }
 
@@ -36,9 +36,9 @@
     }
 }
 
-@media screen and (orientation: landscape) and (min-width: 670px) and (min-height: 700px) and (max-height: 799px) {
+@media screen and (orientation: landscape) and (min-width: 670px) and (min-height: 700px) and (max-height: 850px) {
     body {
-        height: 108vh;
+        height: 100vh;
     } 
     main {
         height: 100%;
@@ -71,6 +71,10 @@
     
     #cont > ul > li > span {
         font-size: 1.3rem;
+    }
+
+    section > #infos > li {
+        width: 90%;
     }
 }
 
