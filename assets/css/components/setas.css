@@ -6,3 +6,8 @@
     border-right: solid 3px white;
     transform: rotateZ(135deg);
 }
+
+#trigger {
+    background-color: transparent;
+    border: none;
+}

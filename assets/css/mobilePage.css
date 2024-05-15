@@ -1,6 +1,7 @@
 @import url(global.css);
 @import url(components/setas.css);
 @import url(components/icons.css);
+@import url(content_acordeon.css);
 
 body {
     display: flex;
@@ -92,7 +93,7 @@ header > section > ul > li:last-child {
 
 section > #infos > li {
     display: flex;
-    justify-content: space-between;
+    flex-flow: column nowrap;
     width: 100%;
     border: solid 1px white;
     margin-bottom: 10px;
@@ -109,4 +110,16 @@ section > #infos > li {
 
 #infos > li:hover {
     background-color: var(--color1);
+    border-color: var(--color1);
+}
+
+section > #infos > li > .header-acordeon {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+span {
+    font-weight: 600;
 }
