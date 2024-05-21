@@ -22,8 +22,6 @@ main {
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
-    
-    
     width: 95%;
     padding: 15px;
     border: solid 1px rgb(255, 255, 255);
@@ -86,6 +84,7 @@ header > section > ul > li:last-child {
     width: 95%;
     display: flex;
     justify-content: center;
+    padding-bottom: 25px;
     transition: all .3s ease;
 }
 
