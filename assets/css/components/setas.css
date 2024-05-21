@@ -5,9 +5,15 @@
     border-top: solid 3px white;
     border-right: solid 3px white;
     transform: rotateZ(135deg);
+    transition: .3s;
 }
 
-#trigger {
+li.open > .header-acordeon > .trigger > .seta {
+    transform: rotate(315deg);
+}
+
+.trigger {
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }

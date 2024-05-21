@@ -13,58 +13,131 @@
     <main>
         <span class="pontos">...</span>
         <header>
-            <img src="assets/perfil.jpg" alt="perfil">
+            <img src="assets/images/perfil.jpg" alt="perfil">
             <section>
                 <h1>Olá,<br> eu sou Felipe Santos</h1>
                 <ul>
                     <li class="job">Junior Developer</li>
                     <li class="loc">Goiás - BR</li>
-                    <li class="phone">(61) 99936-2635</li>
-                    <li class="email">fsantos29004@gmail.com</li>
+                    <li class="phone"><a href="tel: (61) 9 9936-2635">(61) 9 9936-2635</a></li>
+                    <li class="email"><a href="mailto:fsantos29004@gmail.com">fsantos29004@gmail.com</a></li>
                 </ul>
             </section>
         </header>
         <section id="cont">
             <ul id="infos">
-                <li class="item1">
+                <li class="item">
                         <div class="header-acordeon">
                             <span>Skills</span>
-                            <button id="trigger" type="button">
-                                <div class="seta">&nbsp;</div>
+                            <button class="trigger" type="button">
+                            <div class="seta">&nbsp;</div>
                             </button>
-                        </div>               
-                </li>
-                <li class="item2">
-                        <div class="header-acordeon">
-                            <span>Educação</span>
-                            <button id="trigger" type="button">
-                                <div class="seta">&nbsp;</div>
-                            </button>
-                        </div>              
-                </li>
-                <li class="item3">
-                        <div class="header-acordeon">
-                            <span>Portifolio</span>
-                            <button id="trigger" type="button">
-                                <div class="seta">&nbsp;</div>
-                            </button>
+                        </div>   
+                        
+                        <div class="content-acordeon skills">
+                            <div class="contain">
+                                <section class="profissionais">
+                                    <span>Habilidades profissionais:</span>
+                                    <div class="profImg">
+                                        <img src="assets/images/css-w.png" alt="css">
+                                        <img src="assets/images/html-w.png" alt="html"> 
+                                        <img src="assets/images/js-w.png" alt="javascript">
+                                    </div>
+                                </section>
+                                <section class="pessoais">
+                                    <span>Habilidades pessoais:</span>
+                                    <ul>
+                                        <li>Facilidade com <br> tarefas práticas</li>
+                                        <li>Organização</li>
+                                        <li>Disciplina</li>
+                                        <li>Comprometimento <br> com resultados</li>
+                                        <li>Trabalho em equipe</li>
+                                    </ul>
+                                </section>
+                            </div>
                         </div>
                 </li>
-                <li class="item4">
+                <li class="item">
+                        <div class="header-acordeon">
+                            <span>Educação</span>
+                            <button class="trigger" type="button">
+                            <div class="seta">&nbsp;</div>
+                            </button>
+                        </div> 
+                        
+                        <div class="content-acordeon educ">
+                            <ul>
+                                <li>
+                                    <p>UDF - Graduação em Ciências da Computação</p>
+                                    <span>Cursando 4° semestre - 2026</span>
+                                </li>
+                                <li>
+                                    <p>Curso: Tecnologia da Informação e Comunicação</p>
+                                    <span>SENAI - 2023 - 14 horas</span>
+                                </li>
+                                <li>
+                                    <p>Curso: Javascript básico </p>
+                                    <span>Curso em Vídeo - 2024 - 40 horas</span>
+                                </li>
+                                <li>
+                                    <p>Curso: HTML5 e CSS3</p>
+                                    <span>Curso em Vídeo - 2024 - 200 horas</span>
+                                </li>
+                                <li>
+                                    <p>Curso: JavaScript avançado</p>
+                                    <span>DIO - 2024 - 40 horas</span>
+                                </li>
+                            </ul>
+                        </div>
+                </li>
+                <li class="item">
+                    <div class="header-acordeon">
+                        <span>Projetos</span>
+                        <button class="trigger" type="button">
+                        <div class="seta">&nbsp;</div>
+                        </button>
+                    </div>
+
+                    <div class="content-acordeon projects">
+                        <ul>
+                            <li>
+                                <span>Site responsivo só com HTML5 e CSS3</span>
+                                <a href="https://fsantosandrade.github.io/projeto-android/" target="_blank">https://fsantosandrade.github.io/projeto-android/</a>
+                            </li>
+                            <li>
+                                <span>Tela de Login Rensponsiva com tratamento de dados</span>
+                                <a href="https://fsantosandrade.github.io/projeto-login/" target="_blank">https://fsantosandrade.github.io/projeto-login/</a>
+                            </li>
+                            <li>
+                                <span>Pokedex utilizando API e Paginação</span>
+                                <a href="https://fsantosandrade.github.io/pokedex/" target="_blank">https://fsantosandrade.github.io/pokedex/</a>
+                            </li>
+                            <li>
+                                <span>Site HTML e CSS interativo com JavaScript</span>
+                                <a href="https://fsantosandrade.github.io/projeto-spider-man/" target="_blank">https://fsantosandrade.github.io/projeto-spider-man/</a>
+                            </li>
+                            <li>
+                                <span>Agenda criada em C</span>
+                                <a href="https://github.com/fsantosandrade/Projeto_Agenda" target="_blank">https://github.com/fsantosandrade/Projeto_Agenda</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <!-- <li class="item">
                     <div class="header-acordeon">
                         <span>Idioma</span>
-                        <button id="trigger" type="button">
-                            <div class="seta">&nbsp;</div>
+                        <button class="trigger" type="button">
+                        <div class="seta">&nbsp;</div>
                         </button>
                     </div>  
                     
-                    <div class="content-acordeon">
+                    <div class="content-acordeon idiomas">
                         <ul>
                             <li>Português</li>
                             <li>Espanhol</li>
                         </ul>
                     </div>
-                </li>
+                </li> -->
             </ul>
         </section>
     </main>

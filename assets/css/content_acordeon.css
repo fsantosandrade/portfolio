@@ -1,5 +1,16 @@
 .content-acordeon {
-    display: none;
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+}
+
+#infos > li.open > .content-acordeon {
+    display: inline-block;
+    height: auto;
+    opacity: 1;
+    margin-top: 15px;
+    padding: 5px;
 }
 
 #infos > li.open {
@@ -7,14 +18,7 @@
     border-color: var(--color1);
 }
 
-#infos > li.open > .content-acordeon {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 5px;
-    transition: all .3s ease-in-out;
-}
-
-#infos > li.open > .content-acordeon > ul > li::before {
+.idiomas > ul > li::before {
     content: '';
     display: inline-block;
     width: 13px;

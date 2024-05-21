@@ -1,0 +1,22 @@
+@import url(global.css);
+@import url(content_acordeon.css);
+
+li.open > .educ > ul {
+    display: flex;
+    flex-flow: column;
+}
+
+li.open > .educ > ul > li {
+    list-style: none;
+    padding: 10px;
+}
+
+li.open > .educ > ul > li > p {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+li.open > .educ > ul > li > span {
+    font-weight: 200;
+    font-size: .8rem;
+}

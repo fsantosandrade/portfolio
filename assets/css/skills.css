@@ -1,0 +1,49 @@
+@import url(global.css);
+@import url(content_acordeon.css);
+
+li.open > .skills > .contain {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+li.open > .skills > .contain > .profissionais > .profImg {
+    display: flex;
+    min-width: 150px;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li.open > .skills > .contain > .profissionais > .profImg > img {
+    width: 30px;
+    margin: 15px 0;
+}
+
+li.open > .skills > .contain > .profissionais {
+    margin-right: 10px;
+}
+
+li.open > .skills > .contain > .pessoais {
+    margin-left: 10px;
+    text-align: center;
+}
+
+li.open > .skills > .contain > .pessoais > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: disc;
+    text-align: left;
+}
+
+li.open > .skills > .contain > .pessoais > ul > li {
+    font-weight: 100;
+    font-size: .9rem;
+    margin: 5px 15px;
+}
+
+li.open > .skills > .contain > .pessoais > ul > li:nth-child(2),
+li.open > .skills > .contain > .pessoais > ul > li:nth-child(4) {
+    margin-right: 0;
+}
