@@ -1,6 +1,8 @@
 function updateProfileInfo (profileData) {
-    const photo = document.querySelector("#profile.photo")
+    const photo = document.getElementById("profile.photo")
     photo.src = profileData.photo
+    photo.alt = profileData.name
+}
 
 (async function () {
     const profileData = await fetchProfileData()
