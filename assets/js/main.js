@@ -36,12 +36,12 @@ function updateSoftSkillsInfo(profileData) {
 function updateEducationInfo(profileData) {
     const educations = document.getElementById("educations")
 
-    profileData.educations.map(education => {
+    educations.innerHTML = profileData.education.map(education => {
         return `<li>
         <p>${education.name}</p>
         <span>${education.font} - ${education.ano} - ${education.horas}</span>
         </li>`
-    })
+    }).join('')
 }
 
 function updateProjectsInfo(profileData) {
@@ -55,11 +55,18 @@ function updateProjectsInfo(profileData) {
     }).join('')
 }
 
+function updateIdiomasInfo(profileData) {
+    const idiomas = document.getElementById("idiomas")
+
+    idiomas.innerHTML = profileData.languages.map(idioma => `<li>${idioma}</li>`).join('')
+}
+
 (async function () {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
     updateSoftSkillsInfo(profileData)
     updateHardSkillsInfo(profileData)
     updateProjectsInfo(profileData)
+    updateEducationInfo(profileData)
     console.log(profileData)
 })()
