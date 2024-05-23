@@ -68,5 +68,6 @@ function updateIdiomasInfo(profileData) {
     updateHardSkillsInfo(profileData)
     updateProjectsInfo(profileData)
     updateEducationInfo(profileData)
+    updateIdiomasInfo(profileData)
     console.log(profileData)
 })()

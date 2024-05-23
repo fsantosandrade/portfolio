@@ -9,15 +9,15 @@
       "hardSkills": [
         {
           "name": "CSS3",
-          "logo": "assets/images/css-w.png"
+          "logo": "https://github.com/fsantosandrade/portfolio/blob/main/assets/images/css-w.png?raw=true"
         },
         {
           "name": "HTML5",
-          "logo": "assets/images/html-w.png"
+          "logo": "https://github.com/fsantosandrade/portfolio/blob/main/assets/images/css-w.png?raw=true"
         },
         {
           "name": "JavaScript",
-          "logo": "assets/images/js-w.png"
+          "logo": "https://github.com/fsantosandrade/portfolio/blob/main/assets/images/css-w.png?raw=true"
         }
       ],
       "softSkills": [
