@@ -48,7 +48,7 @@ function updateProjectsInfo(profileData) {
     const projects = document.getElementById("profile.projects")
 
     projects.innerHTML = profileData.portfolio.map(project => {
-        return `<li>
+        return `<li ${project.github ? 'class="github"' : ''}>
         <span>${project.name}</span>
         <a href="${project.url}" target="_blank">${project.url}</a>
         </li>`
@@ -69,5 +69,4 @@ function updateIdiomasInfo(profileData) {
     updateProjectsInfo(profileData)
     updateEducationInfo(profileData)
     updateIdiomasInfo(profileData)
-    console.log(profileData)
 })()

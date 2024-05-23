@@ -23,7 +23,7 @@ li.open > .projects > ul > li:last-child{
     margin-bottom: 0;
 }
 
-li.open > .projects > ul > li > span::before {
+li.open > .projects > ul > li.github > span::before {
     content: '';
     display: inline-block;
     width: 14px;
