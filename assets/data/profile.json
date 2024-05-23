@@ -1,6 +1,6 @@
 {
     "name": "Felipe Santos",
-    "photo": "assets/images/perfil.jpg",
+    "photo": "https://github.com/fsantosandrade/portfolio/blob/main/assets/images/perfil.jpg?raw=true",
     "job": "Junior Developer",
     "location": "Goiás - GO",
     "phone": "(61) 9 9936-2635",
@@ -13,11 +13,11 @@
         },
         {
           "name": "HTML5",
-          "logo": "https://github.com/fsantosandrade/portfolio/blob/main/assets/images/css-w.png?raw=true"
+          "logo": "https://github.com/fsantosandrade/portfolio/blob/main/assets/images/html-w.png?raw=true"
         },
         {
           "name": "JavaScript",
-          "logo": "https://github.com/fsantosandrade/portfolio/blob/main/assets/images/css-w.png?raw=true"
+          "logo": "https://github.com/fsantosandrade/portfolio/blob/main/assets/images/js-w.png?raw=true"
         }
       ],
       "softSkills": [

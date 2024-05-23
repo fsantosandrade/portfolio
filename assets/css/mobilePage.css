@@ -5,6 +5,7 @@
 @import url(projects.css);
 @import url(skills.css);
 @import url(educ.css);
+@import url(idiomas.css);
 
 body {
     display: flex;
@@ -124,6 +125,6 @@ section > #infos > li > .header-acordeon {
     width: 100%;
 }
 
-section > #infos > li > .header-acordeon > span {
+section > #infos > li > .header-acordeon > span{
     font-weight: 600;
 }

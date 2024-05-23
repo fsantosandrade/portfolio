@@ -1,0 +1,16 @@
+@import url(global.css);
+@import url(content_acordeon.css);
+
+.idiomas > ul {
+    list-style: none;
+}
+
+.idiomas > ul > li::before {
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: url(../icons/check.svg) center no-repeat;
+    background-size: contain;
+    margin-right: 5px;
+}

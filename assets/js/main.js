@@ -45,7 +45,7 @@ function updateEducationInfo(profileData) {
 }
 
 function updateProjectsInfo(profileData) {
-    const projects = document.getElementById("projects")
+    const projects = document.getElementById("profile.projects")
 
     projects.innerHTML = profileData.portfolio.map(project => {
         return `<li>

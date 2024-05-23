@@ -18,16 +18,6 @@
     border-color: var(--color1);
 }
 
-.idiomas > ul > li::before {
-    content: '';
-    display: inline-block;
-    width: 13px;
-    height: 13px;
-    background: url(../icons/check.svg) center no-repeat;
-    background-size: contain;
-    margin-right: 5px;
-}
-
 #infos > li.open > .content-acordeon > ul {
     display: flex;
     justify-content: space-evenly;
