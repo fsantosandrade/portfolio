@@ -128,3 +128,14 @@ section > #infos > li > .header-acordeon {
 section > #infos > li > .header-acordeon > span{
     font-weight: 600;
 }
+
+main > footer {
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+main > footer > a > img {
+    max-width: 80px;
+    padding: 5px 0 10px 0;
+}
