@@ -34,6 +34,38 @@
       "Espanhol (intermediário)",
       "Italiano (iniciante)"
     ],
+    "education": [
+      {
+        "name": "UDF - Graduação em Ciências da Computação",
+        "font": "Cursando 4° semestre",
+        "ano": "2026",
+        "horas": ""
+      },
+      {
+        "name": "Curso: Tecnologia da Informação e Comunicação",
+        "font": "SENAI",
+        "ano": "2023",
+        "horas": "14 horas"
+      },
+      {
+        "name": "Curso: Javascript básico",
+        "font": "Curso em Vídeo",
+        "ano": "2024",
+        "horas": "40 horas"
+      },
+      {
+        "name": "Curso: HTML5 e CSS3",
+        "font": "Curso em Vídeo",
+        "ano": "2024",
+        "horas": "200 horas"
+      },
+      {
+        "name": "Curso: JavaScript avançado",
+        "font": "DIO",
+        "ano": "2024",
+        "horas": "40 horas"
+      }
+    ],
     "portfolio": [
       {
         "name": "Site responsivo só com HTML5 e CSS3",
@@ -51,13 +83,13 @@
         "github": true
       },
       {
-        "name": "Tela de Login Rensponsiva com tratamento de dados",
-        "url": "https://fsantosandrade.github.io/projeto-login/",
+        "name": "Site Desktop feito com HTML e CSS interativo com JavaScript",
+        "url": "https://fsantosandrade.github.io/projeto-spider-man/",
         "github": true
       },
       {
-        "name": "Tela de Login Rensponsiva com tratamento de dados",
-        "url": "https://fsantosandrade.github.io/projeto-login/",
+        "name": "Agenda criada em C",
+        "url": "https://github.com/fsantosandrade/Projeto_Agenda",
         "github": true
       }
     ],
