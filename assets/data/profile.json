@@ -18,6 +18,14 @@
         {
           "name": "JavaScript",
           "logo": "https://github.com/fsantosandrade/portfolio/blob/main/assets/images/js-w.png?raw=true"
+        },
+        {
+          "name": "TypeScript",
+          "logo": "https://github.com/fsantosandrade/portfolio/blob/main/assets/images/ts-w.png?raw=true"
+        },
+        {
+          "name": "Angular",
+          "logo": "https://github.com/fsantosandrade/portfolio/blob/main/assets/images/angular-w.png?raw=true"
         }
       ],
       "softSkills": [
@@ -62,6 +70,12 @@
         "font": "DIO",
         "ano": "2024",
         "horas": "40 horas"
+      },
+      {
+        "name": "Curso: Formação Angular",
+        "font": "DIO",
+        "ano": "2024",
+        "horas": "40 horas"
       }
     ],
     "portfolio": [
@@ -83,6 +97,16 @@
       {
         "name": "Site Desktop feito com HTML e CSS interativo com JavaScript",
         "url": "https://fsantosandrade.github.io/projeto-spider-man/",
+        "github": true
+      },
+      {
+        "name": "Projeto Blog criado com Angular",
+        "url": "https://fsantosandrade.github.io/angular-blog/",
+        "github": true
+      },
+      {
+        "name": "Projeto Quizz interativo criado com Angular",
+        "url": "https://fsantosandrade.github.io/angular-blog/",
         "github": true
       },
       {
